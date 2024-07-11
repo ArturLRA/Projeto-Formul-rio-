@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Formulario</title>
+</head>
+<body>
+
+    <h2>Formulario de inscrição</h2>
+    
+    <label for='nome'>NOME</label><br>
+    <input type='text' id='textoNome' name='nome'><br>
+    
+    <label for='numero'>NUMERO</label><br>
+    <input type='tel' id='textoNumero' name='numero'><br>
+
+    <label for='senha'>SENHA</label><br>
+    <input type='password' id='textoSenha' name='senha'><br>
+
+    <label for='confirmarSenha'>CONFIRMAR SENHA</label><br>
+    <input type='password' id='textoConfirmarSenha' name='confirmarSenha'><br>
+
+    <label for='genero'>SELECIONE SEU GÊNERO</label><br>
+
+        <label class='textoGenero' for='genero'>Masculino</label>
+        <input type='radio' id='genero' name='genero' value='Masculino'><br>
+
+        <label class='textoGenero' for='genero'>Feminino</label>
+        <input type='radio' id='genero' name='genero' value='Feminino'><br><br>
+
+
+    <label for="termos">Eu concordo com os termos de uso.</label>
+    <input type='checkbox' id='termos' name='termos'><br><br><br>
+
+    <button onclick='Enviar()'>Próximo</button>
+    
+    <script src='projetoFormulario.js'></script>
+</body>
+</html>
